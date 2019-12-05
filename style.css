@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Baskervville&display=swap');
+
+* {
+    font-family: 'Baskervville', serif;
+}
+
+.navbar-brand img{
+	width:120px;
+}
+
+.jumbotron {
+    background-image: url(img/nycfull.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+    color: azure;
+    font-family: 'Baskervville', serif;
+}
+
+.jumbotron .display-4 {
+    font-family: 'Kalam', cursive;
+}
+.jumbotron1 {
+    background-image: url(img/suitfull.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: azure;
+    height: 325px;
+}
+.container2 {
+    background-size: cover;
+    background:linear-gradient(rgba(7,0,0,.30),rgba(7,0,0,.25));
+    height: 325px;
+}
+.row {
+    flex-wrap: nowrap;
+}
+
+.container {
+    max-width: 1000px;
+    
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
